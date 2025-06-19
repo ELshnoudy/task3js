@@ -29,7 +29,7 @@ function displayWibsites() {
         <td> ${i+1}</td> 
         <td>${websitesArr[i].name}</td> 
         <td><button class = " btn btn-danger" onclick=visitWebsite(${i})>Vist</button></td>       
-        <td><button class = " btn btn-outline-danger" onclick=deleteWebsite(${i})>Delete</button></td>       
+        <td><button class = " btn btn-danger" onclick=deleteWebsite(${i})>Delete</button></td>       
         </tr>`
     }
     document.getElementById("tBody").innerHTML=cartoona ;
